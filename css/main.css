@@ -1,32 +1,84 @@
 body {
-  font-family: 'Raleway', 'sans-serif';
-  background-color:#A2DED0;
+    font-family: 'Raleway','sans-serif';
+    background-color: #A2DED0;
 }
-.jumbotron{
-  background-image: url(../images/Drip_Coffee_Bangkok.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-margin-top: -40px;
-padding: 20%;
-background-attachment: fixed;
-background-position: center -238px;
-}
-.jumbotron h1{
-  position: absolute;
-  left: 0;
-  margin-top: -10px;
-  padding-left: 20px;
-  color: #f7fafe;
 
+.navbar {
+    border-radius: 0;
 }
-.mission{
-  background-color: #323232;
-  color: #f7fafe;
-  margin-top: -30px;
 
+.jumbotron {
+    background-image: url(../images/Drip_Coffee_Bangkok.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -40px;
+    padding: 20%;
+    background-attachment: fixed;
+    background-position: center -238px;
 }
-.mission h3{
-  padding: 5% 10%;
-  text-align: center;
+
+.jumbotron h1 {
+    position: absolute;
+    left: 0;
+    margin-top: -10px;
+    padding-left: 20px;
+    color: #f7fafe;
+}
+
+.mission {
+    background-color: #323232;
+    color: #f7fafe;
+    margin-top: -30px;
+}
+
+.mission h3 {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.features {
+    text-align: center;
+}
+
+.features img {
+    margin: 5% 0;
+}
+
+footer {
+    background-color: #D64541;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+}
+
+footer p {
+    color: #fff;
+    float: left;
+    vertical-align: middle;
+    padding: 2%;
+    margin: 0;
+}
+
+ul.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+ul.footer-list li {
+    display: inline-block;
+    padding: 2%;
+    margin: 0;
+    float: right;
+}
+
+ul.footer-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.footer-list li a:hover {
+    text-decoration: underline;
 }
